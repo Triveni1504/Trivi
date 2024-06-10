@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="X_YUG.XyugCareersWorkshopPage"/>
+      <class name="X_YUG.XyugMobileAplnDevelpmentService"/>
+      <class name="X_YUG.XyugOurWorksPage"/>
+      <class name="X_YUG.XyugDashBoard"/>
+      <class name="X_YUG.XyugDevopAsService"/>
+      <class name="X_YUG.XyugSoftwareDevelopmentService"/>
+      <class name="X_YUG.XyugDigitalMarketingService"/>
+      <class name="X_YUG.XyugUIUXDesignService"/>
+      <class name="X_YUG.XyugMetaverseService"/>
+      <class name="X_YUG.XyugVFXVedioEditingService"/>
+      <class name="X_YUG.XyugAboutPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
