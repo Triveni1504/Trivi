@@ -24,7 +24,9 @@ public class XyugCareersWorkshopPage extends Base {
 	wu.takeScreenShot(driver, "WorkShop Page");
 	yws.createWorkShopApplication(driver);
 	wu.takeScreenShot(driver, "Successfull page");
+
 	
+	wu.thread(driver);
 }
 
 
